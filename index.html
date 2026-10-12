@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="The portfolio of Your Name — developer, creator, and keeper of the night."
+    />
+    <meta name="theme-color" content="#100e1c" />
+    <title>Your Name — Portfolio of the Night</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Space+Mono:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <a class="brand" href="#home" aria-label="Your Name, home">
+        <span class="brand-mark" aria-hidden="true">✦</span>
+        <span>YOUR<span class="brand-accent">NAME</span></span>
+      </a>
+      <button
+        class="menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="site-nav"
+      >
+        <span class="menu-icon" aria-hidden="true">☰</span>
+        <span class="sr-only">Toggle navigation</span>
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Inventory</a>
+        <a class="nav-contact" href="#contact">Say hello <span aria-hidden="true">↗</span></a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="home" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot"></span> AVAILABLE FOR ADVENTURE</p>
+          <h1 id="hero-title">MAKING<br />THE WEB<br /><span>LEGENDARY.</span></h1>
+          <p class="hero-description">
+            Hey, I’m <strong>Your Name</strong> — a <strong>developer / designer</strong>
+            building thoughtful digital experiences, one pixel at a time.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projects">View my work <span aria-hidden="true">↓</span></a>
+            <a class="text-link" href="mailto:hello@yourdomain.com">Let’s talk <span aria-hidden="true">↗</span></a>
+          </div>
+          <p class="hero-location"><span aria-hidden="true">✧</span> BASED IN YOUR CITY, PLANET EARTH</p>
+        </div>
+
+        <div class="night-scene" role="img" aria-label="Pixel-art moon rising over a silhouette of a gothic castle">
+          <div class="scene-scanlines" aria-hidden="true"></div>
+          <div class="moon" aria-hidden="true"></div>
+          <div class="scene-star star-one" aria-hidden="true">✦</div>
+          <div class="scene-star star-two" aria-hidden="true">✧</div>
+          <div class="scene-star star-three" aria-hidden="true">·</div>
+          <div class="scene-cloud cloud-one" aria-hidden="true"></div>
+          <div class="scene-cloud cloud-two" aria-hidden="true"></div>
+          <svg class="castle" viewBox="0 0 480 320" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" shape-rendering="crispEdges">
+            <path fill="#171426" d="M0 285h36v-40h32v-34h24v34h26v-64h18v-36h20v36h18v64h24v-92h20v-44h20v44h18v92h22v-62h18v-36h18v36h20v62h20v-42h30v42h34v35H0z"/>
+            <path fill="#241b31" d="M28 285v-15h10v15zm58-40v-17h10v17zm76-64v-22h10v22zm98-36v-24h10v24zm76 42v-20h10v20zm69 57v-15h10v15z"/>
+            <path fill="#ec6b77" d="M150 145h8v-26h22v26h8v10h-38zm96-44h8V73h22v28h8v11h-38zm76 46h8v-26h22v26h8v10h-38z"/>
+            <path fill="#f0bd73" d="M168 198h12v18h-12zm100-59h12v18h-12zm78 42h12v18h-12zm-112 77h12v18h-12z"/>
+            <path fill="#100e1c" d="M207 285v-52h14v-14h28v14h14v52z"/>
+            <path fill="#ec6b77" d="M220 233v-14h30v14z"/>
+            <path fill="#3b2940" d="M212 270h8v8h-8zm26 0h8v8h-8zm88-42h8v12h-8zm-175-1h8v12h-8z"/>
+          </svg>
+          <div class="scene-ground" aria-hidden="true"></div>
+          <span class="scene-caption">FIG. 01 — THE CREATIVE KEEP</span>
+        </div>
+        <div class="hero-scroll" aria-hidden="true"><span></span> SCROLL TO EXPLORE</div>
+      </section>
+
+      <section class="intro section-wrap" id="about" aria-labelledby="about-title">
+        <div class="section-label"><span>01</span> THE PLAYER</div>
+        <div class="intro-content">
+          <h2 id="about-title">A little about<br />the <span>hero.</span></h2>
+          <div class="intro-text">
+            <p>
+              I’m a <strong>[your role]</strong> who loves turning curious ideas into
+              useful, polished experiences. I care about the details: clear interfaces,
+              accessible design, and code that feels good to work with.
+            </p>
+            <p>
+              When I’m not at my desk, you’ll find me <strong>[your favorite side quest]</strong>.
+              Currently exploring <strong>[what you’re learning or looking for]</strong>.
+            </p>
+            <a class="text-link" href="mailto:hello@yourdomain.com">More about me <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+      </section>
+
+      <section class="projects section-wrap" id="projects" aria-labelledby="projects-title">
+        <div class="section-heading">
+          <div>
+            <div class="section-label"><span>02</span> QUEST LOG</div>
+            <h2 id="projects-title">Selected <span>quests.</span></h2>
+          </div>
+          <p>A few things I’ve made along the way.</p>
+        </div>
+        <div class="project-grid">
+          <article class="project-card">
+            <a class="project-image project-image-rose" href="https://github.com/your-username/project-one" aria-label="View Project One">
+              <span class="project-number">QUEST 001</span>
+              <span class="project-glyph" aria-hidden="true">✧</span>
+              <span class="image-caption">[PROJECT IMAGE / SCREENSHOT]</span>
+              <span class="project-arrow" aria-hidden="true">↗</span>
+            </a>
+            <div class="project-meta"><span>WEB APP · 2025</span><span>01 / 03</span></div>
+            <h3><a href="https://github.com/your-username/project-one">Project One <span aria-hidden="true">↗</span></a></h3>
+            <p>A short, one-line description of what you built and who it helps.</p>
+            <div class="tag-list"><span>React</span><span>TypeScript</span><span>Design</span></div>
+          </article>
+          <article class="project-card">
+            <a class="project-image project-image-blue" href="https://github.com/your-username/project-two" aria-label="View Project Two">
+              <span class="project-number">QUEST 002</span>
+              <span class="project-glyph" aria-hidden="true">◈</span>
+              <span class="image-caption">[PROJECT IMAGE / SCREENSHOT]</span>
+              <span class="project-arrow" aria-hidden="true">↗</span>
+            </a>
+            <div class="project-meta"><span>CREATIVE TOOL · 2024</span><span>02 / 03</span></div>
+            <h3><a href="https://github.com/your-username/project-two">Project Two <span aria-hidden="true">↗</span></a></h3>
+            <p>Share the challenge, your approach, and the result in a sentence.</p>
+            <div class="tag-list"><span>JavaScript</span><span>API</span><span>UI/UX</span></div>
+          </article>
+          <article class="project-card">
+            <a class="project-image project-image-gold" href="https://github.com/your-username/project-three" aria-label="View Project Three">
+              <span class="project-number">QUEST 003</span>
+              <span class="project-glyph" aria-hidden="true">✹</span>
+              <span class="image-caption">[PROJECT IMAGE / SCREENSHOT]</span>
+              <span class="project-arrow" aria-hidden="true">↗</span>
+            </a>
+            <div class="project-meta"><span>OPEN SOURCE · 2024</span><span>03 / 03</span></div>
+            <h3><a href="https://github.com/your-username/project-three">Project Three <span aria-hidden="true">↗</span></a></h3>
+            <p>Highlight an interesting feature or the impact this project made.</p>
+            <div class="tag-list"><span>Next.js</span><span>CSS</span><span>Open source</span></div>
+          </article>
+        </div>
+        <a class="button button-outline all-projects" href="https://github.com/your-username">Find me on GitHub <span aria-hidden="true">↗</span></a>
+      </section>
+
+      <section class="inventory" id="skills" aria-labelledby="skills-title">
+        <div class="section-wrap inventory-inner">
+          <div>
+            <div class="section-label"><span>03</span> INVENTORY</div>
+            <h2 id="skills-title">Tools of<br />the <span>trade.</span></h2>
+            <p class="inventory-note">My current loadout. Always room for one more.</p>
+          </div>
+          <div class="inventory-grid">
+            <div class="inventory-item"><span class="item-icon icon-pink" aria-hidden="true">◉</span><span>HTML / CSS</span><span class="item-level">LV. 05</span></div>
+            <div class="inventory-item"><span class="item-icon icon-blue" aria-hidden="true">⌘</span><span>JavaScript</span><span class="item-level">LV. 04</span></div>
+            <div class="inventory-item"><span class="item-icon icon-gold" aria-hidden="true">✦</span><span>[Your framework]</span><span class="item-level">LV. 03</span></div>
+            <div class="inventory-item"><span class="item-icon icon-green" aria-hidden="true">⬡</span><span>[Your tool / skill]</span><span class="item-level">LV. 03</span></div>
+            <div class="inventory-item"><span class="item-icon icon-blue" aria-hidden="true">▧</span><span>Git & GitHub</span><span class="item-level">LV. 04</span></div>
+            <div class="inventory-item"><span class="item-icon icon-pink" aria-hidden="true">✎</span><span>UI / UX Design</span><span class="item-level">LV. 03</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact section-wrap" id="contact" aria-labelledby="contact-title">
+        <div class="section-label"><span>04</span> SEND A SIGNAL</div>
+        <div class="contact-content">
+          <div>
+            <h2 id="contact-title">Your quest<br />starts <span>here.</span></h2>
+            <p>Have a good idea, an interesting challenge, or just want to say hi? My inbox is open.</p>
+          </div>
+          <a class="button button-primary contact-button" href="mailto:hello@yourdomain.com">
+            hello@yourdomain.com <span aria-hidden="true">↗</span>
+          </a>
+        </div>
+        <div class="contact-links">
+          <a href="https://github.com/your-username">GitHub <span aria-hidden="true">↗</span></a>
+          <a href="https://www.linkedin.com/in/your-username/">LinkedIn <span aria-hidden="true">↗</span></a>
+          <a href="https://your-portfolio-or-social-link.com">Social / Blog <span aria-hidden="true">↗</span></a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a class="brand footer-brand" href="#home"><span class="brand-mark" aria-hidden="true">✦</span> YOUR<span class="brand-accent">NAME</span></a>
+      <p>BUILT WITH CARE, AFTER DARK <span aria-hidden="true">✦</span> © 2025 YOUR NAME</p>
+      <a class="back-top" href="#home">BACK TO TOP ↑</a>
+    </footer>
+  </body>
+</html>
